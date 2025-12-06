@@ -1,12 +1,17 @@
-function getRandomInt(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+// ==========================================
+// EXTERNAL LICENSE SCRIPT DISABLED
+// No loading from cdn.debutify.com
+// ==========================================
 
-document.addEventListener("DOMContentLoaded", function () {
-  let licenseScript = document.createElement("script");
-  licenseScript.src = `https://cdn.debutify.com/license/debutify-v8-enc.min.js?version=${getRandomInt(10000, 99999)}`;
-  licenseScript.defer = true;
-  document.body.appendChild(licenseScript);
-});
+console.log('🧪 External license script loader disabled - Testing mode');
+
+// ==========================================
+// YOUR CUSTOM LICENSE SCRIPT HERE
+// ==========================================
+// Example:
+// document.addEventListener("DOMContentLoaded", function () {
+//   let licenseScript = document.createElement("script");
+//   licenseScript.src = "https://your-cdn.com/license-validator.js";
+//   licenseScript.defer = true;
+//   document.body.appendChild(licenseScript);
+// });
