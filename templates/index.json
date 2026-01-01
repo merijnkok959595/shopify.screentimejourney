@@ -584,14 +584,6 @@
     "featured_product_jQtDpy": {
       "type": "featured-product",
       "blocks": {
-        "product_text_g76m6w": {
-          "type": "_product_text",
-          "settings": {
-            "text": "{{ closest.product.vendor }}",
-            "text_style": "uppercase"
-          },
-          "blocks": {}
-        },
         "product_title_EJ6rw9": {
           "type": "_product_title",
           "settings": {},
@@ -607,45 +599,6 @@
           "settings": {},
           "blocks": {}
         },
-        "product_price_H4NmUW": {
-          "type": "_product_price",
-          "settings": {
-            "hide_shipping_policy": true
-          },
-          "blocks": {}
-        },
-        "product_variant_picker_p6t4Vj": {
-          "type": "_product_variant-picker",
-          "settings": {},
-          "blocks": {}
-        },
-        "product_quantity_selector_3NmLWP": {
-          "type": "_product_quantity-selector",
-          "settings": {},
-          "blocks": {}
-        },
-        "product_buy_buttons_7gjyrU": {
-          "type": "_product_buy-buttons",
-          "settings": {
-            "show_gift_card_recipient": true,
-            "dbtfy_addtocart_animation_enable": true,
-            "dbtfy_addtocart_animation_type": "tada",
-            "dbtfy_addtocart_animation_interval": 5,
-            "dbtfy_addtocart_animation_duration": 1
-          },
-          "blocks": {}
-        },
-        "trust_badges_7dGjNj": {
-          "type": "_trust_badges",
-          "settings": {
-            "trust_badges_badge_type": "payment_options",
-            "show_heading": true,
-            "show_subheading": true,
-            "show_informative_text": true,
-            "trust_badges_alignment_footer": "center"
-          },
-          "blocks": {}
-        },
         "product_description_Wphrxn": {
           "type": "_product_description",
           "settings": {
@@ -656,13 +609,6 @@
         "product_tabs_479yry": {
           "type": "_product_tabs",
           "settings": {},
-          "blocks": {}
-        },
-        "product_customizable_products_xVKyE4": {
-          "type": "_product_customizable-products",
-          "settings": {
-            "heading": "Customizable products"
-          },
           "blocks": {}
         },
         "collapsible_content_zNPLnW": {
@@ -717,47 +663,26 @@
             "collapsible_con_block_Mc3ELB"
           ]
         },
-        "product_social_discount_6FDxVt": {
-          "type": "_product_social-discount",
+        "product_buy_buttons_7gjyrU": {
+          "type": "_product_buy-buttons",
           "settings": {
-            "color_scheme": "scheme-1",
-            "custom_color_scheme": "",
-            "button_label": "Share and get {amount}{discount} off!",
-            "button_icon": "share",
-            "modal_title": "Share and get {amount}{discount} off!",
-            "modal_content": "Simply share this product on one of the following social networks and you will unlock {amount}{discount} off!",
-            "modal_thank_you_title": "Thank you for sharing {amount}{discount} off!",
-            "modal_thank_you_content": "Copy the discount code below and paste it at checkout to get your discount",
-            "modal_discount_label": "Apply discount code",
-            "discount_name": "Discount coupon code",
-            "discount_type": "%",
-            "discount_amount": "30",
-            "social_share_title": "Share on:",
-            "enable_facebook": true,
-            "enable_twitter": true,
-            "enable_pinterest": true,
-            "enable_linkedin": true,
-            "enable_whatsapp": true,
-            "enable_email": true
+            "show_gift_card_recipient": true,
+            "dbtfy_addtocart_animation_enable": true,
+            "dbtfy_addtocart_animation_type": "tada",
+            "dbtfy_addtocart_animation_interval": 5,
+            "dbtfy_addtocart_animation_duration": 1
           },
           "blocks": {}
         }
       },
       "block_order": [
-        "product_text_g76m6w",
         "product_title_EJ6rw9",
         "product_bullet_points_9HFEK6",
         "product_rating_KYT3kk",
-        "product_price_H4NmUW",
-        "product_variant_picker_p6t4Vj",
-        "product_quantity_selector_3NmLWP",
-        "product_buy_buttons_7gjyrU",
-        "trust_badges_7dGjNj",
         "product_description_Wphrxn",
         "product_tabs_479yry",
-        "product_customizable_products_xVKyE4",
         "collapsible_content_zNPLnW",
-        "product_social_discount_6FDxVt"
+        "product_buy_buttons_7gjyrU"
       ],
       "name": "t:sections.featured-product.name",
       "settings": {
@@ -770,7 +695,7 @@
         "media_fit": "contain",
         "image_ratio": "inherit",
         "image_crop_position": "inherit",
-        "gallery_layout": "thumbnail_slider",
+        "gallery_layout": "stacked",
         "media_position": "left",
         "mobile_thumbnails": "hide",
         "hide_variants": false,
@@ -788,27 +713,6 @@
         "custom_padding_bottom": 36
       }
     },
-    "1757156173adbd2fb8": {
-      "type": "apps",
-      "blocks": {
-        "commitment_widget_milestone_preview_tt8nXG": {
-          "type": "shopify://apps/commitment-widget/blocks/milestone_preview/74b5ec2c-a75f-4d6e-b726-fa8a09ac55bf",
-          "settings": {
-            "caption": "SCREEN TIME JOURNEY ©",
-            "title": "The Milestones",
-            "description": "",
-            "male_label": "Men",
-            "female_label": "Women"
-          }
-        }
-      },
-      "block_order": [
-        "commitment_widget_milestone_preview_tt8nXG"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "dbtfy_separator_fep3rh": {
       "type": "dbtfy-separator",
       "name": "Separator",
@@ -823,26 +727,117 @@
         "custom_padding_bottom": 36
       }
     },
-    "17571561812f522365": {
-      "type": "apps",
+    "dbtfy_faq_N8wV48": {
+      "type": "dbtfy-faq",
       "blocks": {
-        "commitment_widget_leaderboard_preview_YxndCh": {
-          "type": "shopify://apps/commitment-widget/blocks/leaderboard_preview/74b5ec2c-a75f-4d6e-b726-fa8a09ac55bf",
+        "dbtfy_faq_group_X9ypGB": {
+          "type": "_dbtfy-faq-group",
           "settings": {
-            "caption": "SCREEN TIME JOURNEY ©",
-            "title": "The Leaderboard",
-            "description": "",
-            "male_label": "Men",
-            "female_label": "Women",
-            "leaderboard_url": ""
-          }
+            "heading": "",
+            "title": "Category",
+            "icon": "support"
+          },
+          "blocks": {
+            "dbtfy_faq_question_fRFdFA": {
+              "type": "_dbtfy-faq-question",
+              "settings": {
+                "heading": "",
+                "open_by_default": false,
+                "question": "Question",
+                "answer": "<p>This is your answer.</p>",
+                "icon": ""
+              },
+              "blocks": {}
+            },
+            "dbtfy_faq_question_z3kEQc": {
+              "type": "_dbtfy-faq-question",
+              "settings": {
+                "heading": "",
+                "open_by_default": false,
+                "question": "Question",
+                "answer": "<p>This is your answer.</p>",
+                "icon": ""
+              },
+              "blocks": {}
+            },
+            "dbtfy_faq_question_wbRDtU": {
+              "type": "_dbtfy-faq-question",
+              "settings": {
+                "heading": "",
+                "open_by_default": false,
+                "question": "Question",
+                "answer": "<p>This is your answer.</p>",
+                "icon": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dbtfy_faq_question_fRFdFA",
+            "dbtfy_faq_question_z3kEQc",
+            "dbtfy_faq_question_wbRDtU"
+          ]
+        },
+        "heading": {
+          "type": "_heading",
+          "static": true,
+          "settings": {
+            "padding___top": "none",
+            "custom_padding_top": 36,
+            "padding___bottom": "none",
+            "custom_padding_bottom": 36
+          },
+          "blocks": {
+            "title_NWeazh": {
+              "type": "_title",
+              "settings": {
+                "title": "Faq",
+                "custom_color": false,
+                "title_color": "#000000",
+                "alignment": "text-center",
+                "alignment_mobile": "",
+                "size": "inherit",
+                "style": "inherit",
+                "padding___top": "inherit",
+                "custom_padding_top": 36,
+                "padding___bottom": "inherit",
+                "custom_padding_bottom": 36
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "title_NWeazh"
+          ]
         }
       },
       "block_order": [
-        "commitment_widget_leaderboard_preview_YxndCh"
+        "dbtfy_faq_group_X9ypGB"
       ],
+      "name": "t:sections.dbtfy-faq.name",
       "settings": {
-        "include_margins": true
+        "show_on": "both",
+        "container_size": "container",
+        "show_search": true,
+        "search_placeholder": "Search questions...",
+        "no_result_text": "No results found....",
+        "text_alignment": "text-left",
+        "text_alignment_mobile": "text-left",
+        "show_banner": true,
+        "banner_icon": "help",
+        "banner_heading": "Didn't find your answer?",
+        "banner_subheading": "<p>Our customer service will be happy to help you.</p>",
+        "banner_button_label": "Get in Touch",
+        "banner_button_url": "",
+        "banner_button_style": "button button--secondary",
+        "button_size": "inherit",
+        "fillable_color": false,
+        "color_scheme": "scheme-1",
+        "custom_color_scheme": "",
+        "padding___top": "inherit",
+        "custom_padding_top": 36,
+        "padding___bottom": "inherit",
+        "custom_padding_bottom": 36
       }
     },
     "dbtfy_separator_ga9TNb": {
@@ -943,9 +938,8 @@
     "image_with_text_UiAVKP",
     "dbtfy_separator_YxVyrJ",
     "featured_product_jQtDpy",
-    "1757156173adbd2fb8",
     "dbtfy_separator_fep3rh",
-    "17571561812f522365",
+    "dbtfy_faq_N8wV48",
     "dbtfy_separator_ga9TNb",
     "dbtfy_ugc_carousel_cWE7Gy"
   ]
